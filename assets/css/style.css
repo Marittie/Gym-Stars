@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton:wght@500&family=Merriweather:wght@300&display=swap");
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 body {
     font-family: Merriweather, sans-serif;
     color: yellow;
-    background-color: #fff;
+    background-color: rgb(41, 40, 40);
     
 }
 
@@ -34,7 +34,7 @@ p {
 }
 
 #main-image {
-    background-image: url(/assets/images/stars.jpeg);
+    background-image: url(/assets/images/death-lift.jpeg);
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -44,7 +44,7 @@ p {
 }
 
 #motive {
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     font-size: 250%;
     margin-top: 20px;
