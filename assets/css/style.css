@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Merriweather:wght@300&display=swap");
 
 * {
     margin: 0;
@@ -8,8 +8,8 @@
  
 body {
     font-family: Merriweather, sans-serif;
-    color: crimson;
-    background-color: blue;
+    color: yellow;
+    background-color: #fff;
     
 }
 
@@ -17,12 +17,12 @@ body {
 
 h1,h2 {
      font-family: Poppins, sans-serif;
-     color: yellow;
+     color: crimson;
 }
 
 p {
     font-family: Merriweather, sans-serif;
-    color: crimson;
+    color: yellow;
 }
 
 #logo {
@@ -50,23 +50,25 @@ p {
     margin-top: 20px;
 }
 
-#menu {
+#navmenu {
     font-size: 150%;
     
     }
 
-    #menu, #logo {
+    #navmenu, #logo {
         line-height: 15px;
     }
 
-    #menu li {
+    #navmenu li {
         float: right;
         list-style-type: none;
         margin: 15px;
     }
 
-    #menu a {
+    #navmenu a {
         text-decoration: none;
-        color: yellow;
+        color: crimson;
     }
-    
+
+
+
