@@ -30,7 +30,7 @@ p {
     font-size: 300%;
     letter-spacing: 3px;
     text-transform: uppercase;
-    margin: 15px 0 0 15px;
+    margin: 25px 0 0 15px;
 }
 
 #main-image {
@@ -50,5 +50,23 @@ p {
     margin-top: 20px;
 }
 
+#menu {
+    font-size: 150%;
+    
+    }
 
+    #menu, #logo {
+        line-height: 15px;
+    }
+
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin: 15px;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: yellow;
+    }
     
