@@ -15,10 +15,16 @@ body {
 
 
 
-h1,h2 {
+h1 {
      font-family: Poppins, sans-serif;
      color: crimson;
 }
+
+ h2 { 
+     font-family: Poppins, sans-serif;
+     color: yellow;
+ }    
+
 
 p {
     font-family: Merriweather, sans-serif;
@@ -35,7 +41,7 @@ p {
 
 #main-image {
     background-image: url(/assets/images/death-lift.jpeg);
-    height: 580px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     background-position: center;
@@ -69,6 +75,55 @@ p {
         text-decoration: none;
         color: crimson;
     }
+
+    #workout-plan {
+       clear: both;
+    }
+
+    #workout-plan img {
+        height: 400px;
+        padding-top: 50px;
+    }
+
+    #upper-body {
+        padding: 30px;
+    }
+     
+   
+
+    #img, .workout {
+        line-height: 40px;
+    }
+
+    .workout {
+        float: right;
+        text-align: center;
+        padding-right: 15%;
+        padding-top: 50px;
+        
+    }
+
+    .workout > ul {
+        list-style-type: none;
+    }
+
+    .workout > li {
+        color: yellow;
+    
+    }
+
+footer {
+    height: 50px;
+    }
+
+
+
+
+
+        
+    
+
+    
 
 
 
