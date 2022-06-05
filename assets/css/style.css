@@ -13,7 +13,7 @@ body {
     
 }
 
-
+/*heading and logo */
 
 h1 {
      font-family: Poppins, sans-serif;
@@ -36,7 +36,7 @@ p {
     font-size: 300%;
     letter-spacing: 3px;
     text-transform: uppercase;
-    margin: 25px 0 0 15px;
+    margin: 25px;
 }
 
 #main-image {
@@ -56,19 +56,26 @@ p {
     margin-top: 20px;
 }
 
+/* navigation menu */
+
+header a {
+    text-decoration: none;
+}
+
 #navmenu {
     font-size: 150%;
-    
-    }
+     }
 
-    #navmenu, #logo {
-        line-height: 5px;
-    }
+#logo, #navmenu {
+    line-height: 5px;
+}
+
+
 
     #navmenu li {
         float: right;
         list-style-type: none;
-        margin: 15px;
+        margin: 15px ;
     }
 
     #navmenu a {
@@ -76,15 +83,30 @@ p {
         color: crimson;
     }
 
+    #navmenu a:hover {
+        border-bottom: 3px solid crimson;
+    }
+
+    .stay {
+        border-bottom: 3px solid crimson;
+    }
+
+    /* workout plan */ 
+
     #workout-plan {
        clear: both;
+       background-color: black;
     }
 
     #workout-plan img {
         height: 400px;
-        padding-top: 50px;
+        padding-top: 0 auto;
+        
     }
      
+    img {
+        border: 5px solid yellow;
+    }
    
     .img, .workout {
         line-height: 40px;
@@ -105,6 +127,26 @@ p {
     .workout > li {
         color: yellow;
     
+    }
+
+    /* about me and the workout */
+
+    #pic {
+        background-image: url(/assets/images/weights-photo.jpeg);
+        height: 1100px;
+        width: 100%;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+
+    .about-workout p {
+        text-align: center;
+        font-size: 160%;
+        margin: 0 auto;
+        padding: 50px 150px;
     }
 
 footer {
