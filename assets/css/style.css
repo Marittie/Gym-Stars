@@ -84,24 +84,19 @@ p {
         height: 400px;
         padding-top: 50px;
     }
-
-    #upper-body {
-        padding: 30px;
-    }
      
    
-
-    #img, .workout {
+    .img, .workout {
         line-height: 40px;
     }
 
     .workout {
+        width: 35%;
+        padding-top: 40px;
+        padding-right: 150px;
         float: right;
-        text-align: center;
-        padding-right: 15%;
-        padding-top: 50px;
-        
-    }
+        margin: 0 auto;
+       }
 
     .workout > ul {
         list-style-type: none;
