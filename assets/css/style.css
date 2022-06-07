@@ -149,6 +149,30 @@ header a {
         padding: 50px 150px;
     }
 
+    /* join me to workout together */
+
+    .strong {
+        background-image: url(/assets/images/join-strong.jpeg);
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    
+    .join-me {
+        font-size: 150%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        background-color: rgba(245, 36, 36, 0.178);
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
 footer {
     height: 50px;
     }
