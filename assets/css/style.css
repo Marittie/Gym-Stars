@@ -163,6 +163,7 @@ header a {
     }
     
     .join-me {
+
         font-size: 150%;
         display: flex;
         flex-direction: column;
@@ -171,10 +172,27 @@ header a {
         background-color: rgba(245, 36, 36, 0.178);
         margin-top: 10%;
         margin-left: 5%;
+        padding: 15px 30px;
     }
 
 footer {
     height: 50px;
+    }
+
+    .social-links {
+        text-align: center;
+    }
+
+    .social-links > li {
+        display: inline;
+    }
+
+    .social-links i {
+        font-size: 150%;
+        color: yellow;
+        margin: 2px;
+        padding: 30px;
+        
     }
 
 
