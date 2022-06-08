@@ -107,32 +107,53 @@ header a {
     img {
         border: 5px solid yellow;
     }
-   
-    .img, .workout {
-        line-height: 40px;
-    }
 
-    .workout {
-        width: 35%;
-        padding-top: 40px;
-        padding-right: 150px;
-        float: right;
-        margin: 0 auto;
-       }
-
-    .workout > ul {
+    #workout-plan li {
         list-style-type: none;
     }
+   
+   .first-plan {
+       width: 50%;
+       font-size: 130%;
+       float: right;
+       text-align: center;
+       margin: 0 auto;
+       padding: 25px 20px;
+   }
 
-    .workout > li {
-        color: yellow;
-    
-    }
+   .second-plan {
+    width: 50%;
+    font-size: 130%;
+    float: right;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 20px;
+   }
+
+   .third-plan {
+    width: 50%;
+    font-size: 130%;
+    float: right;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 20px;
+   }
+
+   .fourth-plan {
+    width: 50%;
+    font-size: 130%;
+    float: right;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 20px;
+   }
+
+   
 
     /* about me and the workout */
 
     #pic {
-        background-image: url(/assets/images/weights-photo.jpeg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(/assets/images/weights-photo.jpeg);
         height: 1100px;
         width: 100%;
         overflow: hidden;
@@ -175,6 +196,8 @@ header a {
         padding: 15px 30px;
     }
 
+    /* Footer */
+
 footer {
     height: 50px;
     }
@@ -193,6 +216,11 @@ footer {
         margin: 2px;
         padding: 30px;
         
+    }
+
+    footer > p {
+        float: right;  
+        padding-bottom: 10px;
     }
 
 
