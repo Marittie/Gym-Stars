@@ -100,7 +100,7 @@ header a {
 
     #workout-plan img {
         height: 400px;
-        padding-top: 0 auto;
+       
         
     }
      
@@ -190,10 +190,22 @@ header a {
         flex-direction: column;
         align-items: center;
         position: absolute;
+        border-radius: 10px;
         background-color: rgba(245, 36, 36, 0.178);
         margin-top: 10%;
         margin-left: 5%;
         padding: 15px 30px;
+    }
+
+    .join-button {
+        margin: 15px;
+        padding: 5px 15px;
+        background-color: yellow;
+        color: crimson;
+        font-size: 100%;
+
+        
+
     }
 
     /* Footer */
