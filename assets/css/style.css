@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Quicksand:wght@500&display=swap");
 
 * {
     margin: 0;
@@ -7,27 +7,27 @@
 }
  
 body {
-    font-family: Merriweather, sans-serif;
+    font-family: Quicksand, sans-serif;
     color: yellow;
     background-color: rgb(45, 43, 43);
-    
+     
 }
 
 /*heading and logo */
 
 h1 {
-     font-family: Poppins, sans-serif;
+     font-family: Oswald, sans-serif;
      color: crimson;
 }
 
  h2 { 
-     font-family: Poppins, sans-serif;
+     font-family: Oswald, sans-serif;
      color: yellow;
  }    
 
 
 p {
-    font-family: Merriweather, sans-serif;
+    font-family: Quicksand, sans-serif;
     color: yellow;
 }
 
@@ -44,6 +44,7 @@ p {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,6 +55,7 @@ p {
     text-transform: capitalize;
     font-size: 250%;
     margin-top: 20px;
+    padding-left: 10px;
 }
 
 /* navigation menu */
@@ -98,11 +100,7 @@ header a {
        background-color: black;
     }
 
-    #workout-plan img {
-        height: 400px;
-       
-        
-    }
+
      
     img {
         border: 5px solid yellow;
@@ -111,42 +109,72 @@ header a {
     #workout-plan li {
         list-style-type: none;
     }
+
+    
+
+    .first-day img {
+        height: 400px;
+        margin: 5px;
+        position: sticky;
+    }
+
+    .second-day img {
+        height: 400px;
+        margin: 5px;
+        position: sticky;
+    }
+
+    .third-day img {
+        height: 400px;
+        margin: 5px;
+        position: sticky;
+    }
+
+    .fourth-day img {
+        height: 400px;
+        margin: 5px;
+        position: sticky;
+    }
+
+    .first-session {
+        float: left;
+        width: 50%;
+        font-size: 130%;
+        float: right;
+        text-align: center;
+        margin-top: 20px;
+        position: relative;
+    }
+ 
+    .second-session {
+     width: 50%;
+     font-size: 130%;
+     float: right;
+     text-align: center;
+     margin-top: 20px;
+     position: relative;
+    }
+ 
+    .third-session {
+     width: 50%;
+     font-size: 130%;
+     float: right;
+     text-align: center;
+     margin-top: 20px;
+     position: relative;
+    }
+ 
+    .fourth-session {
+     width: 50%;
+     font-size: 130%;
+     float: right;
+     text-align: center;
+     margin-top: 20px;
+     position: relative;
+    }
+ 
    
-   .first-plan {
-       width: 50%;
-       font-size: 130%;
-       float: right;
-       text-align: center;
-       margin: 0 auto;
-       padding: 25px 20px;
-   }
-
-   .second-plan {
-    width: 50%;
-    font-size: 130%;
-    float: right;
-    text-align: center;
-    margin: 0 auto;
-    padding: 25px 20px;
-   }
-
-   .third-plan {
-    width: 50%;
-    font-size: 130%;
-    float: right;
-    text-align: center;
-    margin: 0 auto;
-    padding: 25px 20px;
-   }
-
-   .fourth-plan {
-    width: 50%;
-    font-size: 130%;
-    float: right;
-    text-align: center;
-    margin: 0 auto;
-    padding: 25px 20px;
-   }
+   
 
    
 
@@ -160,6 +188,7 @@ header a {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        position: relative;
         
 }
 
@@ -168,6 +197,7 @@ header a {
         font-size: 160%;
         margin: 0 auto;
         padding: 50px 150px;
+        position: relative;
     }
 
     /* join me to workout together */
@@ -212,6 +242,7 @@ header a {
 
 footer {
     height: 50px;
+    position: relative;
     }
 
     .social-links {
@@ -234,6 +265,18 @@ footer {
         float: right;  
         padding-bottom: 10px;
     }
+
+    /* Media queries */
+
+    /* For large and medium screens sizes (1200px)  */
+
+    @media screen and (max-width: 1200px){
+        #main-image {
+            height: 1200px;
+            width: 100%;
+        }
+         
+         }
 
 
 
