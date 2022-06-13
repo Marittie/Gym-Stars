@@ -40,7 +40,7 @@ p {
 }
 
 #main-image {
-    background-image: url(./assets/images/death-lift.jpeg);
+    background-image: url(../images/death-lift.jpeg);
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -181,7 +181,7 @@ header a {
     /* about me and the workout */
 
     #pic {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(/assets/images/weights-photo.jpeg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../images/weights-photo.jpeg);
         height: 1100px;
         width: 100%;
         overflow: hidden;
@@ -203,7 +203,7 @@ header a {
     /* join me to workout together */
 
     .strong {
-        background-image: url(/assets/images/join-strong.jpeg);
+        background-image: url(../images/join-strong.jpeg);
         height: 600px;
         width: 100%;
         overflow: hidden;
