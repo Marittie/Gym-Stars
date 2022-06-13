@@ -40,7 +40,7 @@ p {
 }
 
 #main-image {
-    background-image: url(/assets/images/death-lift.jpeg);
+    background-image: url(./assets/images/death-lift.jpeg);
     height: 600px;
     width: 100%;
     overflow: hidden;
